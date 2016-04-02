@@ -1,0 +1,63 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: rgba(138,15,71,.1);
+}
+#collapsable-nav ul {
+		margin: 0;
+	}
+
+.navbar-default .navbar-header h1 {
+	margin-top: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2em;
+	color: rgb(220,220,220);
+	padding-left: 30px;
+}
+.navbar-default .navbar-header h1:hover {
+	color: rgb(175, 175, 175)
+}
+header .navbar{
+	background-color: rgba(138,15,71,0.9);
+	margin-bottom: 0;
+} 
+ul {
+	margin-top: 0;
+}
+h2 {
+	margin: 1em;
+}
+hr {
+	margin: 0;
+}
+article {
+	background-color: rgba(138,15,71,.2);
+	padding: 1em;
+	margin-bottom: 1em;
+	border-radius: 2px;
+}
+
+
+@media (max-width: 768px) {
+	section {
+		padding: 1em 1em;
+	}
+		div #collapsable-nav {
+		background: #fff;
+		padding: 0;
+	}
+		#nav-list li{
+	background: rgba(146,163,161,0.5);
+	margin: 0;
+	padding: 0px;
+}
+	#nav-list li:hover {
+	background-color: rgba(138,15,71,.3)
+}
+
+.navbar-header button {
+	margin-top: 16px;
+}
+}
+
+
